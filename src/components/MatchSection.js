@@ -27,7 +27,7 @@ function MatchSection({ player }) {
             <p style={{ color: '#666', marginBottom: '24px', lineHeight: '1.6' }}>
               {modal === 'video'
                 ? 'Video analysis is unavailable in the demo version.'
-                : 'Detailed match analysis is unavailable in the demo version. AI-powered insights will be available in the live platform.'}
+                : 'Detailed match analysis is unavailable in the demo version.'}
             </p>
             <button
               onClick={() => setModal(null)}
